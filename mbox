@@ -1,0 +1,2898 @@
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
+
+
+From MAILER-DAEMON@gatix.localdomain  Fri Sep 27 08:36:46 2002
+Return-Path: <MAILER-DAEMON>
+Received: from localhost (localhost)
+	by gatix.localdomain (8.9.3/8.9.3) with internal id IAA00394;
+	Fri, 27 Sep 2002 08:36:46 -0400
+Date: Fri, 27 Sep 2002 08:36:46 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@gatix.localdomain>
+Message-Id: <200209271236.IAA00394@gatix.localdomain>
+To: root@gatix.localdomain
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="IAA00394.1033130206/gatix.localdomain"
+Subject: Warning: could not send message for past 4 hours
+Auto-Submitted: auto-generated (warning-timeout)
+Status: RO
+
+This is a MIME-encapsulated message
+
+--IAA00394.1033130206/gatix.localdomain
+
+    **********************************************
+    **      THIS IS A WARNING MESSAGE ONLY      **
+    **  YOU DO NOT NEED TO RESEND YOUR MESSAGE  **
+    **********************************************
+
+The original message was received at Thu, 26 Sep 2002 22:29:17 -0400
+from root@localhost
+
+   ----- The following addresses had transient non-fatal errors -----
+mgomez@yahoo.com
+
+   ----- Transcript of session follows -----
+451 mgomez@yahoo.com... yahoo.com: Name server timeout
+Warning: message still undelivered after 4 hours
+Will keep trying until message is 5 days old
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; gatix.localdomain
+Arrival-Date: Thu, 26 Sep 2002 22:29:17 -0400
+
+Final-Recipient: RFC822; mgomez@yahoo.com
+Action: delayed
+Status: 4.4.3
+Last-Attempt-Date: Fri, 27 Sep 2002 08:36:46 -0400
+Will-Retry-Until: Tue, 1 Oct 2002 22:29:17 -0400
+
+--IAA00394.1033130206/gatix.localdomain
+Content-Type: message/rfc822
+
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id WAA07677
+	for mgomez@yahoo.com; Thu, 26 Sep 2002 22:29:17 -0400
+Date: Thu, 26 Sep 2002 22:29:17 -0400
+From: root <root>
+Message-Id: <200209270229.WAA07677@gatix.localdomain>
+To: mgomez@yahoo.com
+
+Thu Sep 26 22:29:17 ART 2002
+
+--IAA00394.1033130206/gatix.localdomain--
+
+From root  Fri Oct 18 01:14:44 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id BAA04810
+	for root; Fri, 18 Oct 2002 01:14:44 -0300
+Date: Fri, 18 Oct 2002 01:14:44 -0300
+From: root <root@gatix.localdomain>
+Message-Id: <200210180414.BAA04810@gatix.localdomain>
+To: root@gatix.localdomain
+Status: RO
+
+Fri Oct 18 01:14:44 ARST 2002
+
+From root  Fri Oct 25 10:42:56 2002
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.9.3) id KAA00860
+	for root; Fri, 25 Oct 2002 10:42:56 -0300
+Message-Id: <200210251342.KAA00860@gatix.localdomain>
+From: marca@mcom.com (Marc Andreessen)
+Subject: Here it is, world!
+Date: 13 Oct 1994 07:57:12 GMT
+Organization: Mosaic Communications Corporation
+Reply-To: info@mcom.com
+Status: RO
+
+Mosaic Communications Corporation is making a public version of Mosaic
+Netscape 0.9 Beta available for anonymous FTP. Mosaic Netscape is a
+built-from-scratch Internet navigator featuring performance optimized for
+14.4 modems, native JPEG support, and more.
+
+You can FTP Mosaic Netscape 0.9 Beta from the following locations:
+
+   * ftp.mcom.com in /netscape
+   * gatekeeper.dec.com in /pub/net/infosys/Mosaic-Comm
+   * lark.cc.ukans.edu in /Netscape
+   * ftp.meer.net in /Netscape
+   * doc.ic.ac.uk in /packages/Netscape
+   * archie.au in /pub/misc/netscape
+   * ftp.cica.indiana.edu in /pub/pc/win3/winsock/nscape09.zip (PC only)
+   * mac.archive.umich.edu in /mac (Mac only)
+
+Please make sure to read the README and LICENSE files.
+
+An up-to-date listing of mirror sites can be obtained at any time by sending
+email to release@mcom.com.
+
+Subject to the timing and results of this beta cycle, Mosaic Communications
+will release Mosaic Netscape 1.0, also available free for personal use via
+the Internet. It will be subject to license terms; please review them when
+and if you obtain Mosaic Netscape 1.0.
+
+A commercial version of Mosaic Netscape 1.0, including technical support
+from Mosaic Communications, will be available upon completion of the beta
+cycle. Contact us at info@mcom.com for more information.
+
+Have fun!
+
+Marc and the gang
+info@mcom.com, http://mosaic.mcom.com/
+
+From root  Mon Mar  3 10:13:12 2003
+Return-Path: <root>
+Received: (from root@localhost)
+	by gatix.localdomain (8.9.3/8.8.7) id KAA00593
+	for root; Mon, 3 Mar 2003 10:13:11 -0400
+Date: Mon, 3 Mar 2003 10:13:11 -0400
+Message-Id: <200303031413.KAA00593@gatix.localdomain>
+From: root@gatix.localdomain (Cron Daemon)
+To: root@gatix.localdomain
+Subject: Cron <root@gatix> /usr/bin/rdate -s time.nist.gov ; /usr/sbin/setclock     # sincroniza la hora
+X-Cron-Env: <MAILTO=root>
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=root>
+Status: RO
+
+rdate: Connection timed out
