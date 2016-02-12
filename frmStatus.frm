@@ -18,7 +18,7 @@ Begin VB.Form frmStatus
    StartUpPosition =   2  'CenterScreen
    Begin VB.CommandButton cmdCancel 
       Cancel          =   -1  'True
-      Caption         =   "Cancel"
+      Caption         =   "Cancelar proceso"
       BeginProperty Font 
          Name            =   "Microsoft Sans Serif"
          Size            =   8.25
