@@ -310,5 +310,7 @@ Private Function TrimChr34(ByRef MyString As String) As String
 End Function
 
 Private Sub clMessage_OnError(Code As Long, Source As String, Description As String)
+
     RaiseEvent OnError(Code, Source, Description)
+    
 End Sub
