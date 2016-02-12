@@ -311,6 +311,7 @@ End Function
 
 Private Sub clMessage_OnError(Code As Long, Source As String, Description As String)
 'Autor: Martin Krohn
+'Fecha modificacion: 12/02/2016
 
     RaiseEvent OnError(Code, Source, Description)
     
