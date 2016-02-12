@@ -18,7 +18,7 @@ Begin VB.Form frmStatus
    StartUpPosition =   2  'CenterScreen
    Begin VB.CommandButton cmdCancel 
       Cancel          =   -1  'True
-      Caption         =   "Cancel"
+      Caption         =   "Cancel process"
       BeginProperty Font 
          Name            =   "Microsoft Sans Serif"
          Size            =   8.25
@@ -29,10 +29,10 @@ Begin VB.Form frmStatus
          Strikethrough   =   0   'False
       EndProperty
       Height          =   435
-      Left            =   1943
+      Left            =   1890
       TabIndex        =   3
       Top             =   960
-      Width           =   1395
+      Width           =   1515
    End
    Begin MSComctlLib.ProgressBar prgExtracc 
       Height          =   195
